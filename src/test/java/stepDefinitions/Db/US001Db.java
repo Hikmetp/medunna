@@ -15,11 +15,11 @@ public class US001Db {
 
 
 
-    @When("Kullanici tablodan gerekli sutunu alir")
+   /* @When("Kullanici tablodan gerekli sutunu alir")
     public void kullanici_tablodan_gerekli_sutunu_alir() {
         createConnection();
         DBUtils.executeQuery("Select * from jhi_user where ssn= '456-12-7852'");
-    }
+    }*/
     @Then("Kullanici ssn dogrulamasini yapar")
     public void kullanici_ssn_dogrulamasini_yapar() throws SQLException {
 
