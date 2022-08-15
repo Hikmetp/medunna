@@ -1,132 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="31.575">
-    <testcase classname="US002_Kayıt olmak için email and username bilgileri girilebilmelidir." name="TC02_TC03_Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir &quot;Username&quot; olmalıdır" time="20.227">
-        <failure message="Step [Kullanici herhangi bir {string} veya {string} girilir ve {string} uyarı mesajı alınmadığı görülür] is defined with 2 parameters at 'stepDefinitions.Ui.US002StepD.kullaniciHerhangiBirVeyaGirilirVeYourUserNameIsRequiredUyarıMesajıAlınmadığıGörülür(java.lang.String,java.lang.String)'.&#10;However, the gherkin step has 3 arguments:&#10; * &quot;a&quot;&#10; * &quot;1as2sd5&quot;&#10; * 'Your UserName is required.'&#10;Step text: Kullanici herhangi bir &quot;a&quot; veya &quot;1as2sd5&quot; girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür" type="io.cucumber.core.exception.CucumberException">
-            <![CDATA[Given Kullanici "medunna_url" sayfasina gider...............................passed
-And Kullanici Anasayfada kullanici ikonuna tiklar...........................passed
-And Kullanici ikonu altindaki regester'i tiklar.............................passed
-When Kullanici SSN kutucuguna tiklar........................................passed
-And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer.passed
-And Kullanici First Name kutucuğuna karekterlerden ve rakamlardan olusan First Name girer.passed
-And Kullanici Last Name kutucuğuna karekterlerden ve rakamlardan olusan Last Name girer.passed
-Then Kullanici UserName kutucuguna tiklar...................................passed
-And Kullanici herhangi bir "a" veya "1as2sd5" girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür.failed
-
-StackTrace:
-io.cucumber.core.exception.CucumberException: Step [Kullanici herhangi bir {string} veya {string} girilir ve {string} uyarı mesajı alınmadığı görülür] is defined with 2 parameters at 'stepDefinitions.Ui.US002StepD.kullaniciHerhangiBirVeyaGirilirVeYourUserNameIsRequiredUyarıMesajıAlınmadığıGörülür(java.lang.String,java.lang.String)'.
-However, the gherkin step has 3 arguments:
- * "a"
- * "1as2sd5"
- * 'Your UserName is required.'
-Step text: Kullanici herhangi bir "a" veya "1as2sd5" girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.548">
+    <testcase classname="US013_Doktor &quot;Test Results&quot; işlemleri yapabilmeli" name="US013_TC01 Doktor &quot;Test Results&quot; işlemleri yapabilmeli" time="0.157">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici "medunna_url" sayfasina gider...............................undefined
+And Kullanici Anasayfada kullanici ikonuna tiklar...........................skipped
+And Doktor  sign in sekmesini secer.........................................skipped
+And Doktor acilan sayfada Username bolumune kullanici adini girer...........skipped
+And Doktor ayni sayfada bulunan Password bolumune sifresini girer...........skipped
+Then Doktor ayni sayfada bulunan Sign in butonuna tiklar....................skipped
+And Doktor giris yaptigi sayfada My Pages butonuna tiklar...................skipped
+And Doktor My Appointments secenegini tiklar................................skipped
+And Sonraki sayfada randevusu olan hastasinin satirindaki Edit secenegini tiklar.skipped
+Given Doktor Request A butonuna tiklar......................................skipped
+And Doktor Glucose, urea, creatinine, Sodium, Potassium,Total protein, Albumin, Hemoglobin testlerini secer.skipped
+And Doktor Save butonuna tiklar.............................................skipped
+And Acilan sayfada Show Test Result secenegini tiklar.......................skipped
+And Acilan sayfada View Result secenegini tiklar............................skipped
+And Doktor  id, name, default max value, default min value, test, description and the date bilgilerini gorur.skipped
+And Kullanici browseri kapatir..............................................skipped
 ]]>
         </failure>
     </testcase>
-    <testcase classname="US002_Kayıt olmak için email and username bilgileri girilebilmelidir." name="TC02_TC03_Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir &quot;Username&quot; olmalıdır 2" time="10.706">
-        <failure message="Step [Kullanici herhangi bir {string} veya {string} girilir ve {string} uyarı mesajı alınmadığı görülür] is defined with 2 parameters at 'stepDefinitions.Ui.US002StepD.kullaniciHerhangiBirVeyaGirilirVeYourUserNameIsRequiredUyarıMesajıAlınmadığıGörülür(java.lang.String,java.lang.String)'.&#10;However, the gherkin step has 3 arguments:&#10; * &quot;5&quot;&#10; * &quot;65ttt65&quot;&#10; * 'Your UserName is required.'&#10;Step text: Kullanici herhangi bir &quot;5&quot; veya &quot;65ttt65&quot; girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür" type="io.cucumber.core.exception.CucumberException">
-            <![CDATA[Given Kullanici "medunna_url" sayfasina gider...............................passed
-And Kullanici Anasayfada kullanici ikonuna tiklar...........................passed
-And Kullanici ikonu altindaki regester'i tiklar.............................passed
-When Kullanici SSN kutucuguna tiklar........................................passed
-And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer.passed
-And Kullanici First Name kutucuğuna karekterlerden ve rakamlardan olusan First Name girer.passed
-And Kullanici Last Name kutucuğuna karekterlerden ve rakamlardan olusan Last Name girer.passed
-Then Kullanici UserName kutucuguna tiklar...................................passed
-And Kullanici herhangi bir "5" veya "65ttt65" girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür.failed
-
-StackTrace:
-io.cucumber.core.exception.CucumberException: Step [Kullanici herhangi bir {string} veya {string} girilir ve {string} uyarı mesajı alınmadığı görülür] is defined with 2 parameters at 'stepDefinitions.Ui.US002StepD.kullaniciHerhangiBirVeyaGirilirVeYourUserNameIsRequiredUyarıMesajıAlınmadığıGörülür(java.lang.String,java.lang.String)'.
-However, the gherkin step has 3 arguments:
- * "5"
- * "65ttt65"
- * 'Your UserName is required.'
-Step text: Kullanici herhangi bir "5" veya "65ttt65" girilir ve 'Your UserName is required.' uyarı mesajı alınmadığı görülür
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+    <testcase classname="US013_Doktor &quot;Test Results&quot; işlemleri yapabilmeli" name="US013_TC02 Doktor Request Impatient isteginde bulunabilmeli" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici "medunna_url" sayfasina gider...............................undefined
+And Kullanici Anasayfada kullanici ikonuna tiklar...........................skipped
+And Doktor  sign in sekmesini secer.........................................skipped
+And Doktor acilan sayfada Username bolumune kullanici adini girer...........skipped
+And Doktor ayni sayfada bulunan Password bolumune sifresini girer...........skipped
+Then Doktor ayni sayfada bulunan Sign in butonuna tiklar....................skipped
+And Doktor giris yaptigi sayfada My Pages butonuna tiklar...................skipped
+And Doktor My Appointments secenegini tiklar................................skipped
+And Sonraki sayfada randevusu olan hastasinin satirindaki Edit secenegini tiklar.skipped
+Given Acilan sayfada Request Inpatient secenegini tiklar....................skipped
+And Kullanici browseri kapatir..............................................skipped
 ]]>
         </failure>
     </testcase>
