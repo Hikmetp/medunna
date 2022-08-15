@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/US009page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/US009pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Api/US009Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Db/US009Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US009StepD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US009Api.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US009.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber2.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DE5UiKlKK9iK9nOGOJHoMWGLn0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,36 +52,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\UiFeatures" />
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\DbFeature" />
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\ApiFeature" />
       <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions/Db" />
       <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
-      <recent name="$PROJECT_DIR$/src/main/java/utilitis" />
-      <recent name="$PROJECT_DIR$/src/test/java/utilities" />
-      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepDefinitions.Ui" />
+      <recent name="stepDefinitions.Db" />
       <recent name="utilities" />
-      <recent name="runners" />
-      <recent name="pojos" />
       <recent name="stepDefinitions.Api" />
-      <recent name="pages" />
+      <recent name="pojos" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir">
-    <configuration name="Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: US001Db" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US002Api.feature" />
-      <option name="GLUE" value="hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US001Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US001Db" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -75,15 +93,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US009Db" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" />
-      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC06_Kullanici Email adresi \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri kullanarak dogru email girebilmeli$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC06_Kullanici Email adresi \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri kullanarak dogru email girebilmeli$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US009Db" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC08_DB ile dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" />
-      <option name="GLUE" value="hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC08_DB ile dogrulanmalidir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_DB ile dogrulanmalidir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC08_DB ile dogrulanmalidir" />
+      <option name="NAME_FILTER" value="^TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -115,22 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" />
-      <option name="GLUE" value="hooks stepDefinitions.Ui" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC_05_Kullanici Email adresi 5 karekterden az ve  \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri olmadan doldurulamamalıdır\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_05_Kullanici Email adresi 5 karekterden az ve  \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri olmadan doldurulamamalıdır\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: US001Db" />
+        <item itemvalue="Cucumber Java.Feature: US009Db" />
+        <item itemvalue="Cucumber Java.Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" />
         <item itemvalue="JUnit.TestRunner2" />
-        <item itemvalue="Cucumber Java.Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" />
-        <item itemvalue="Cucumber Java.Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" />
-        <item itemvalue="Cucumber Java.Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." />
       </list>
     </recent_temporary>
   </component>
@@ -170,5 +182,16 @@
       <updated>1660251421027</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

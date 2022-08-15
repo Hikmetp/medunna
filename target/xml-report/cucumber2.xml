@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.566">
-    <testcase classname="US002_Kayıt olmak için email and username bilgileri girilebilmelidir." name="TC08_DB ile dogrulanmalidir" time="0.11">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.26">
+    <testcase classname="US009 Kullanici hasta bilgilerini gorebilmeli ve duzenleyebilmeli" name="TC07 Kullanici Staff DB deki hasta bilgilerini okuyabilmelidir" time="0.088">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[When Kullanici tablodan gerekli sutunu alir.................................undefined
-Then Kullanici email dogrulamasini yapar....................................skipped
+            <![CDATA[Given Kullanici database baglanir...........................................undefined
+When Kullanici "*" "patient" ile "id" tablosundan "173461" alir.............skipped
+Then Hastanin "FIRST_NAME" "Muzmin" olmalidir...............................skipped
+And Kullanici database baglantisini kapatir.................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US009 Kullanici hasta bilgilerini gorebilmeli ve duzenleyebilmeli" name="TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici database baglanir...........................................undefined
+When Kullanici "*" "patient" ile "id" tablosundan "173461" alir.............skipped
+Then Hastanin "FIRST_NAME" "Muzmin" olmalidir...............................skipped
+And Kullanici database baglantisini kapatir.................................skipped
 ]]>
         </failure>
     </testcase>
