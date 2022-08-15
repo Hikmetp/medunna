@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/US009page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/US009pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Api/US009Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Db/US009Db.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US009StepD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US009Api.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US009.feature" afterDir="false" />
+    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="15.08.22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber2.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660251421027</updated>
     </task>
+    <task id="LOCAL-00001" summary="15.08.22">
+      <created>1660563307061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660563307061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +186,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="15.08.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.08.22" />
   </component>
 </project>
