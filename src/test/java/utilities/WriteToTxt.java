@@ -1,12 +1,14 @@
 package utilities;
 
 
+import pojos.Appointment;
 import pojos.Registrant;
 import pojos.User;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public class WriteToTxt {
 
@@ -58,7 +60,7 @@ public class WriteToTxt {
         }
     }
 
-//    public static void savePatientdata(pojos.Patients_US015 patients_us015) {
+    //    public static void savePatientdata(pojos.Patients_US015 patients_us015) {
 //        try {
 //            //src/resources/testdata/Registrantdata.txt
 //            FileWriter fileWriter = new FileWriter(ConfigReader.getProperty("PatientData_Path"), true);
@@ -69,4 +71,19 @@ public class WriteToTxt {
 //            e.printStackTrace();
 //        }
 //    }
+    public static void saveAppointmentIds(String fileName, List<Object> id){
+
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, false));
+
+            for (int i=0; i< id.size(); i++)
+                writer.append(id.get(i).toString()+",\n");
+
+            writer.close();
+
+        } catch (IOException e) {
+        }
+
+    }
+
 }
