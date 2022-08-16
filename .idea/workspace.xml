@@ -4,7 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="" />
+    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/US07_Pages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/US08_Pages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US07_stepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US08_stepdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/RusableForUS008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US008_PasswordChange.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/Registrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Registrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Api/US001Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Api/US001Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test Data/ApiRegistrantData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_mainpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test Data/registrantApiFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ApiFeature/US001Api.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ApiFeature/US002Api.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DbFeature/US001Db.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DbFeature/US002Db.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UiFeatures/US001.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UiFeatures/US002.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US001page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US002page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/Registrant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Api/US001Api.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Api/US002Api.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Db/US001Db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Db/US002Db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Ui/US001StepD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Ui/US002StepD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ApiUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Authentication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/RegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/WriteToTxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +73,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2DE5UiKlKK9iK9nOGOJHoMWGLn0" />
   <component name="ProjectViewState">
@@ -30,7 +100,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macOS/Desktop/MedunnaProject/Medunna65Yeni/src/test/java/stepDefinitions/Db&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/medunnaYENI/src/test/resources/features/UiFeatures&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -39,13 +109,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\medunnaYENI\src\test\resources\features\UiFeatures" />
       <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions/Db" />
       <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
       <recent name="$PROJECT_DIR$/src/main/java/utilitis" />
       <recent name="$PROJECT_DIR$/src/test/java/utilities" />
-      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\medunnaYENI" />
+      <recent name="C:\Users\PC\IdeaProjects\medunnaYENI\target\json-reportsYENI" />
+      <recent name="C:\Users\PC\IdeaProjects\medunnaYENI\target\json-reports" />
       <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -56,36 +129,16 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir">
-    <configuration name="Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir.">
+    <configuration name="Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US002Api.feature" />
-      <option name="GLUE" value="hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
       <option name="GLUE" value="hooks stepDefinitions.Ui" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC06_Kullanici Email adresi \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri kullanarak dogru email girebilmeli$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC06_Kullanici Email adresi \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri kullanarak dogru email girebilmeli$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" />
+      <option name="NAME_FILTER" value="^TC01 Login\-Appointment formda guncel tarih kabul edilmelidir\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Login\-Appointment formda guncel tarih kabul edilmelidir\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,35 +150,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC08_DB ile dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" />
-      <option name="GLUE" value="hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC08_DB ile dogrulanmalidir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_DB ile dogrulanmalidir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC08_DB ile dogrulanmalidir" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
       <option name="GLUE" value="hooks stepDefinitions.Ui" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC_05_Kullanici Email adresi 5 karekterden az ve  \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri olmadan doldurulamamalıdır\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_05_Kullanici Email adresi 5 karekterden az ve  \&quot;\@\&quot; ve \&quot;\.\&quot; karakterleri olmadan doldurulamamalıdır\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." />
+      <option name="NAME_FILTER" value="^TC02 Login\-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 Login\-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,28 +170,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC03 Login\-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03 Login\-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.TestRunner2" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC04 Login\-Appointment formda date alani gg\/aa\/yy formatina uygun olarak doldurulmalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04 Login\-Appointment formda date alani gg\/aa\/yy formatina uygun olarak doldurulmalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC05 Login-Appointment formda date alani aa/gg/yy formatina uygun olarak dolduramamalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC05 Login\-Appointment formda date alani aa\/gg\/yy formatina uygun olarak dolduramamalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05 Login\-Appointment formda date alani aa\/gg\/yy formatina uygun olarak dolduramamalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC05 Login-Appointment formda date alani aa/gg/yy formatina uygun olarak dolduramamalidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir" />
-        <item itemvalue="JUnit.TestRunner2" />
-        <item itemvalue="Cucumber Java.Scenario: TC03_Kullanıcı adı api kullanılarak doğrulanmalıdır" />
-        <item itemvalue="Cucumber Java.Scenario: TC06_Kullanici Email adresi &quot;@&quot; ve &quot;.&quot; karakterleri kullanarak dogru email girebilmeli" />
-        <item itemvalue="Cucumber Java.Scenario: TC_05_Kullanici Email adresi 5 karekterden az ve  &quot;@&quot; ve &quot;.&quot; karakterleri olmadan doldurulamamalıdır." />
+        <item itemvalue="Cucumber Java.Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." />
+        <item itemvalue="Cucumber Java.Scenario: TC05 Login-Appointment formda date alani aa/gg/yy formatina uygun olarak dolduramamalidir" />
+        <item itemvalue="Cucumber Java.Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" />
+        <item itemvalue="Cucumber Java.Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" />
+        <item itemvalue="Cucumber Java.Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,5 +250,16 @@
       <updated>1660251421027</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
