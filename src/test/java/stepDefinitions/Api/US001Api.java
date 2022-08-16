@@ -1,6 +1,6 @@
 package stepDefinitions.Api;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,6 +8,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Assert;
 import pojos.User;
 import utilities.ConfigReader;

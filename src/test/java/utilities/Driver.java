@@ -1,14 +1,23 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.*;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
 import java.time.Duration;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import java.time.Duration;
 
@@ -19,8 +28,13 @@ public class Driver {
     }
 
     private static WebDriver  driver;
+
     
     private static int timeout = 5;
+
+
+
+
     public static WebDriver getDriver(){
         
 
@@ -64,5 +78,6 @@ public class Driver {
 
         }
     }
+
 
 }
