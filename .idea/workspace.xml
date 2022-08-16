@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
+
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US07_Pages.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US08_Pages.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US07_stepdefinitions.java" afterDir="false" />
@@ -59,6 +60,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/WriteToTxt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber2.xml" beforeDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +78,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -96,6 +102,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -114,6 +121,20 @@
       <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
       <recent name="$PROJECT_DIR$/src/main/java/utilitis" />
       <recent name="$PROJECT_DIR$/src/test/java/utilities" />
+
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
+  </component>
+<component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
+      <recent name="C:\Users\konta\IdeaProjects\medunna\src\test\resources\features\UiFeatures" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions/Db" />
+      <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
+      <recent name="$PROJECT_DIR$/src/main/java/utilitis" />
+
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\IdeaProjects\medunnaYENI" />
@@ -122,13 +143,14 @@
       <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utilities" />
+      <recent name="stepDefinitions.Ui" />
       <recent name="runners" />
-      <recent name="pojos" />
-      <recent name="stepDefinitions.Api" />
       <recent name="pages" />
+      <recent name="utilities" />
+      <recent name="pojos" />
     </key>
   </component>
+
   <component name="RunManager" selected="Cucumber Java.Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir.">
     <configuration name="Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -139,6 +161,28 @@
       <option name="NAME_FILTER" value="^TC01 Login\-Appointment formda guncel tarih kabul edilmelidir\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Login\-Appointment formda guncel tarih kabul edilmelidir\.$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." />
+
+
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: US013" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US013.feature" />
+
+  <component name="RunManager" selected="Cucumber Java.Scenario: Doktor DB ile randevu dogrulayabilmeli">
+    <configuration name="Feature: US003" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" />
+
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+
+      <option name="SUGGESTED_NAME" value="Feature: US013" />
+
+      <option name="SUGGESTED_NAME" value="Feature: US003" />
+
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,6 +194,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
@@ -159,6 +204,29 @@
       <option name="NAME_FILTER" value="^TC02 Login\-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 Login\-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir" />
+
+
+    <configuration name="Scenario: TC08_DB ile dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" />
+      <option name="GLUE" value="hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC08_DB ile dogrulanmalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_DB ile dogrulanmalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC08_DB ile dogrulanmalidir" />
+
+    <configuration name="Scenario: Doktor DB ile randevu dogrulayabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US10_Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^Doktor DB ile randevu dogrulayabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Doktor DB ile randevu dogrulayabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Doktor DB ile randevu dogrulayabilmeli" />
+
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,6 +238,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
@@ -179,6 +248,29 @@
       <option name="NAME_FILTER" value="^TC03 Login\-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03 Login\-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" />
+
+
+    <configuration name="Scenario: US013_TC01 Doktor &quot;Test Results&quot; işlemleri yapabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US013.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^US013_TC01 Doktor \&quot;Test Results\&quot; işlemleri yapabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US013_TC01 Doktor \&quot;Test Results\&quot; işlemleri yapabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US013_TC01 Doktor &quot;Test Results&quot; işlemleri yapabilmeli" />
+
+    <configuration name="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
+
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -190,6 +282,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
@@ -199,6 +292,29 @@
       <option name="NAME_FILTER" value="^TC04 Login\-Appointment formda date alani gg\/aa\/yy formatina uygun olarak doldurulmalidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04 Login\-Appointment formda date alani gg\/aa\/yy formatina uygun olarak doldurulmalidir$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" />
+
+
+    <configuration name="Scenario: US013_TC02 Doktor Request Impatient isteginde bulunabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US013.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^US013_TC02 Doktor Request Impatient isteginde bulunabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US013_TC02 Doktor Request Impatient isteginde bulunabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US013_TC02 Doktor Request Impatient isteginde bulunabilmeli" />
+
+    <configuration name="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US10.feature" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
+
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +326,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC05 Login-Appointment formda date alani aa/gg/yy formatina uygun olarak dolduramamalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US07_Appointment.feature" />
       <option name="GLUE" value="hooks stepDefinitions.Ui" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+
+
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
+    <configuration name="US003_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
       <module name="Medunna65Yeni" />
       <option name="NAME_FILTER" value="^TC05 Login\-Appointment formda date alani aa\/gg\/yy formatina uygun olarak dolduramamalidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC05 Login\-Appointment formda date alani aa\/gg\/yy formatina uygun olarak dolduramamalidir$&quot;" />
@@ -226,17 +349,43 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
+
+      <option name="PACKAGE_NAME" value="runners" />
+
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+
+      <option name="MAIN_CLASS_NAME" value="runners.US003_Runner" />
+
+      <option name="TEST_OBJECT" value="class" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="Cucumber Java.Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir." />
         <item itemvalue="Cucumber Java.Scenario: TC05 Login-Appointment formda date alani aa/gg/yy formatina uygun olarak dolduramamalidir" />
         <item itemvalue="Cucumber Java.Scenario: TC04 Login-Appointment formda date alani gg/aa/yy formatina uygun olarak doldurulmalidir" />
         <item itemvalue="Cucumber Java.Scenario: TC03 Login-Appointment formda date alani icin ileri tarihli valid bir deger secildiginde randevu olusturulmamalidir" />
         <item itemvalue="Cucumber Java.Scenario: TC02 Login-Appointment formda date alani icin gecmis tarih secildiginde randevu olusturulmamalidir (1)" />
+
+
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: US013" />
+        <item itemvalue="Cucumber Java.Scenario: US013_TC01 Doktor &quot;Test Results&quot; işlemleri yapabilmeli" />
+        <item itemvalue="Cucumber Java.Scenario: US013_TC02 Doktor Request Impatient isteginde bulunabilmeli" />
+        <item itemvalue="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir" />
+
+        <item itemvalue="Cucumber Java.Scenario: Doktor DB ile randevu dogrulayabilmeli" />
+        <item itemvalue="Cucumber Java.Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
+        <item itemvalue="JUnit.US003_Runner" />
+        <item itemvalue="Cucumber Java.Feature: US003" />
+        <item itemvalue="Cucumber Java.Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
+
+
       </list>
     </recent_temporary>
   </component>
