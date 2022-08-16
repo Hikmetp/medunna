@@ -19,7 +19,7 @@ public class US10_StepDefinitions {
 
     @Given("Doktor medunnaUrl sayfasina gider")
     public void doktor_medunna_url_sayfasina_gider() {
-     Driver.getDriver().get(ConfigReader.getProperty("medunna_login_url"));
+     Driver.getDriver().get(ConfigReader.getProperty("medunna_url"));
 
     }
 

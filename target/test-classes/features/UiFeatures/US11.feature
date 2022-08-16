@@ -118,7 +118,7 @@ Feature:"My Appointments" Physician (Doctor) tarafından düzenlenebilmeli
       And Doktor MY PAGES ikonuna tiklar
       And  Doktor sayfada MY PAGES ikonu altinda yer alan My Appointmeints bolumune tiklar
       And  Doktor edit butonuna tiklar
-      And  Doktor Status menusunu Completed olarak secer
+      And  Doktor Status menusunu Pending olarak secer
       And  Doktor Anamnesis alanini doldurur
       And  Doktor Treatment alanini doldurur
       And  Doktor Diagnosis alanini doldurur

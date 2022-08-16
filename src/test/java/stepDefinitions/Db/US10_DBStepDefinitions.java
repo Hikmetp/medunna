@@ -21,7 +21,7 @@ public class US10_DBStepDefinitions {
     @Given("kullanici bilgileri kullanarak medunna_db baglanti kurar")
     public void kullanici_bilgileri_kullanarak_medunna_db_baglanti_kurar() {
 
-        DBUtils.createConnection();
+        DatabaseUtility.createConnection();
 
 
     }
@@ -29,7 +29,7 @@ public class US10_DBStepDefinitions {
     @Given("kullanici query ve column gonderir")
     public void kullanici_query_ve_column_gonderir() {
         String query = "select * from appointment";//Tüm randevuları çeker
-        System.out.println(DBUtils.getColumnNames(query) + "\n");
+        System.out.println(DatabaseUtility.getColumnNames(query) + "\n");
 
         //Dataların id lerini alıp listelenmesi
         System.out.println("================= ID LIST ====================");
@@ -37,7 +37,7 @@ public class US10_DBStepDefinitions {
         System.out.println(idList + "\n");
 
         //Aldığımız ID leri bilgisayarımızda kaydetmek için Test Data içinde AppointmentID adında text dosyası açıyoruz.
-        fileName1 = "src/test/resources/testdata/AppointmentID.txt";
+        fileName1 = "src/test/resources/Test Data/AppointmentIDs.txt";
         WriteToTxt.saveAppointmentIds(fileName1, idList);
 
     }

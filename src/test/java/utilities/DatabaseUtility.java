@@ -1,4 +1,5 @@
 package utilities;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +9,9 @@ public class DatabaseUtility {
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
+
     public static void createConnection() {
-        String url = ConfigReader.getProperty("base_url");
+        String url = ConfigReader.getProperty("db_credentials_url");
         String user = ConfigReader.getProperty("db_username");
         String password = ConfigReader.getProperty("db_password");
         try {
@@ -130,6 +132,7 @@ public class DatabaseUtility {
      *         collection of rows and a map represents represent a single row with
      *         key being the column name
      */
+
     public static List<Map<String, Object>> getQueryResultMap(String query) {
         executeQuery(query);
         List<Map<String, Object>> rowList = new ArrayList<>();
