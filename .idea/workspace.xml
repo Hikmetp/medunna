@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="15.08.22" />
+
     <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US10_Page.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US11_Page.java" afterDir="false" />
@@ -21,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US11.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/WriteToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/WriteToTxt.java" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2DE5UiKlKK9iK9nOGOJHoMWGLn0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,17 +66,42 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\UiFeatures" />
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\DbFeature" />
+      <recent name="C:\Users\jakyu\IdeaProjects\medunna\src\test\resources\features\ApiFeature" />
+      <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions/Db" />
+      <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
+
       <recent name="C:\Users\konta\IdeaProjects\medunna\src\test\resources\features\UiFeatures" />
       <recent name="$PROJECT_DIR$/src/test/java/stepDefinitions/Db" />
       <recent name="$PROJECT_DIR$/src/test/resources/Test Data" />
       <recent name="$PROJECT_DIR$/src/main/java/utilitis" />
       <recent name="$PROJECT_DIR$/src/test/java/utilities" />
+
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinitions.Ui" />
+
+      <recent name="stepDefinitions.Db" />
+      <recent name="utilities" />
+      <recent name="stepDefinitions.Api" />
+      <recent name="pojos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: US001Db" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US001Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US001Db" />
+
       <recent name="runners" />
       <recent name="pages" />
       <recent name="utilities" />
@@ -85,6 +117,7 @@
       <module name="Medunna65Yeni" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: US003" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +129,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+    <configuration name="Feature: US009Db" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US009Db" />
+
     <configuration name="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" />
@@ -105,6 +148,7 @@
       <option name="NAME_FILTER" value="^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +160,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US10.feature" />
-      <option name="GLUE" value="hooks stepDefinitions.Ui" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Medunna65Yeni" />
+      <option name="GLUE" value="hooks stepDefinitions.Ui" />      
       <option name="NAME_FILTER" value="^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
+    <configuration name="Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US009Db.feature" />
+      <option name="GLUE" value="stepDefinitions.Db hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +187,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: TC08_DB ile dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" />
       <option name="GLUE" value="hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestRunner2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
       <module name="Medunna65Yeni" />
       <option name="NAME_FILTER" value="^TC08_DB ile dogrulanmalidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_DB ile dogrulanmalidir$&quot;" />
@@ -152,6 +208,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
+      <option name="PACKAGE_NAME" value="runners" />
+
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner2" />
+
+      <option name="TEST_OBJECT" value="class" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +238,24 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="Cucumber Java.Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
+
+
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: US001Db" />
+        <item itemvalue="Cucumber Java.Feature: US009Db" />
+        <item itemvalue="Cucumber Java.Scenario: TC07 Kullanici Admin DB deki hasta bilgilerini dogrulayabilmeli" />
+
+
         <item itemvalue="JUnit.US003_Runner" />
         <item itemvalue="Cucumber Java.Feature: US003" />
         <item itemvalue="Cucumber Java.Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
         <item itemvalue="Cucumber Java.Scenario: TC08_DB ile dogrulanmalidir" />
+
+
+        <item itemvalue="JUnit.TestRunner2" />
+
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +268,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660251421027</updated>
     </task>
+    <task id="LOCAL-00001" summary="15.08.22">
+      <created>1660563307061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660563307061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,5 +288,12 @@
         </entry>
       </map>
     </option>
+
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="15.08.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.08.22" />
+
   </component>
 </project>
