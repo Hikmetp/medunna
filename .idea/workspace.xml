@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
 
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_08_2022_14_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_08_2022_14_24__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+
+
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US07_Pages.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/US08_Pages.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US07_stepdefinitions.java" afterDir="false" />
@@ -63,6 +70,7 @@
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +106,22 @@
     </option>
   </component>
   <component name="ProjectId" id="2DE5UiKlKK9iK9nOGOJHoMWGLn0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+
 
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -128,6 +148,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
   </component>
 <component name="RecentsManager">
+
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
       <recent name="C:\Users\konta\IdeaProjects\medunna\src\test\resources\features\UiFeatures" />
