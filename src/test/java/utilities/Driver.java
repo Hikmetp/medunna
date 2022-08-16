@@ -2,10 +2,13 @@ package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import java.time.Duration;
 
 import java.time.Duration;
 
@@ -16,9 +19,10 @@ public class Driver {
     }
 
     private static WebDriver  driver;
-
+    
+    private static int timeout = 5;
     public static WebDriver getDriver(){
-
+        
 
 
         if(driver==null){   // bu if sayesinde kod calisirken bir kere new keyword ile driver olusturulaca
@@ -60,4 +64,5 @@ public class Driver {
 
         }
     }
+
 }
