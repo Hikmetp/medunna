@@ -1,0 +1,13 @@
+.idea
+project_health.iml
+/.idea/
+/project_health.iml
+target
+/target/
+/target
+test-output
+/test-output
+/test-output/
+/.idea
+/.idea/workspace.xml
+/.idea/
