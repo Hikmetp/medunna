@@ -200,4 +200,9 @@ public class US014StepD {
 
 
     }
+
+    @And("Doktor gecerli sayfayi kapatir")
+    public void doktorGecerliSayfayiKapatir() {
+        Driver.closeDriver();
+    }
 }

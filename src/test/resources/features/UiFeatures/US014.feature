@@ -10,7 +10,7 @@ And Doktor kullanici adi ve parola girerek kendi sayfasina giris yapar
 And Doktor giris yaptigi sayfada "My Pages" butonuna tiklar
 And Doktor acilan dropdown menuden "My inpatients" i secer
 Then Doktor yatan hastanin ID, start and end dates, description, created date, appointment id, status, room and patient bilgilerinin gorunur oldugunu dogrular
-And Doktor sayfayi kapatir
+And Doktor gecerli sayfayi kapatir
 
 @tciki
 Scenario: TC002 "Status" doktor tarafından "UNAPPROVED, DISCHARGED, STAYING veya CANCELLED" olarak güncellenebilmeli
@@ -34,7 +34,7 @@ And Doktor ekranin sol ust kosesinde uzerinde "The In Patient is updated with id
 And Doktor "My inpatients" ekraninda hasta bilgilerinin son kisminda bulunan "Edit" butonuna listedeki hastalardan "status" u  "UNAPPROVED" olan ilk hasta icin tiklar
 And Doktor acilan ekranda status basligi altindaki dropdown menuyu tiklar, "CANCELLED" secenegini secer ve Save butonuna tiklar
 And Doktor ekranin sol ust kosesinde uzerinde "The In Patient is updated with identifier" yazan bir alert box un ciktigini dogrular
-And Doktor sayfayi kapatir
+And Doktor gecerli sayfayi kapatir
 
 
 
@@ -47,5 +47,5 @@ Scenario: TC003 Doktor rezerve edilmiş odayı güncelleyebilmeli
   And Doktor acilan dropdown menuden "My inpatients" i secer
   And Doktor "My inpatients" ekraninda hasta bilgilerinin son kisminda bulunan "Edit" butonuna listedeki hastalardan "status" u  "STAYING" olan ilk hasta icin tiklar
   Then Doktor Room menusunden varsa ilk Available odayi secer Save butonuna basar ve uzerinde "The In Patient is updated with identifier" yazan bir alert'in ciktigini test eder, Available oda yoksa ilk Unavailable odayi secer, Save butonuna tiklar ve "The room already reserved" yazan bir alertin ciktigini dogrular
-  And Doktor sayfayi kapatir
+  And Doktor gecerli sayfayi kapatir
 
