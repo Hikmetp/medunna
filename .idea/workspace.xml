@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="" />
+    <list default="true" id="4e10cb5e-e651-4f66-bf43-7b78c536f6ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/US003_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US014StepD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Ui/US014StepD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/RegistrationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test Data/AppointmentIDs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Test Data/AppointmentIDs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test Data/registrantApiFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Test Data/registrantApiFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US001Api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US001Api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US002Api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US002Api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US001Db.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US001Db.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DbFeature/US002Db.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US001.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US001.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US002.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US004.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US004.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US013.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US013.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US014.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US014.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test Data/AppointmentIDs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test Data/AppointmentIDs.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,15 +81,15 @@
       <recent name="pojos" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Doktor DB ile randevu dogrulayabilmeli">
-    <configuration name="Feature: US003" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Guclu bir parola icin sifre en az 7 karakterden olusmalidir.">
+    <configuration name="Feature: US009Api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" />
-      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US009Api.feature" />
+      <option name="GLUE" value="stepDefinitions.Api hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US003" />
+      <option name="SUGGESTED_NAME" value="Feature: US009Api" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,15 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Doktor DB ile randevu dogrulayabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Doktor Api ile randevu dogrulayabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DbFeature/US10_Db.feature" />
-      <option name="GLUE" value="stepDefinitions.Db hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US010_Api.feature" />
+      <option name="GLUE" value="stepDefinitions.Api hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^Doktor DB ile randevu dogrulayabilmeli$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Doktor DB ile randevu dogrulayabilmeli$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Doktor DB ile randevu dogrulayabilmeli" />
+      <option name="NAME_FILTER" value="^Doktor Api ile randevu dogrulayabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Doktor Api ile randevu dogrulayabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Doktor Api ile randevu dogrulayabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +121,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Guclu bir parola icin sifre en az 7 karakterden olusmalidir." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US003.feature" />
       <option name="GLUE" value="hooks stepDefinitions.Ui" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
+      <option name="NAME_FILTER" value="^Guclu bir parola icin sifre en az 7 karakterden olusmalidir\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Guclu bir parola icin sifre en az 7 karakterden olusmalidir\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Guclu bir parola icin sifre en az 7 karakterden olusmalidir." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,15 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC03_Kullanici adi api kullanilarak dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UiFeatures/US10.feature" />
-      <option name="GLUE" value="hooks stepDefinitions.Ui" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US002Api.feature" />
+      <option name="GLUE" value="stepDefinitions.Api hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
-      <option name="NAME_FILTER" value="^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01\-Doktor\, randevu listesini ve zaman dilimlerini \&quot;My Appointments\&quot; sekmesinden gorebilmeli$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
+      <option name="NAME_FILTER" value="^TC03_Kullanici adi api kullanilarak dogrulanmalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03_Kullanici adi api kullanilarak dogrulanmalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC03_Kullanici adi api kullanilarak dogrulanmalidir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -140,28 +161,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US003_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC_0012  API kullanarak kayitli kisiler olusturulup dogrulanmalidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiFeature/US001Api.feature" />
+      <option name="GLUE" value="stepDefinitions.Api hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Medunna65Yeni" />
+      <option name="NAME_FILTER" value="^TC_0012  API kullanarak kayitli kisiler olusturulup dogrulanmalidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_0012  API kullanarak kayitli kisiler olusturulup dogrulanmalidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_0012  API kullanarak kayitli kisiler olusturulup dogrulanmalidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.US003_Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Doktor DB ile randevu dogrulayabilmeli" />
-        <item itemvalue="Cucumber Java.Scenario: TC01-Doktor, randevu listesini ve zaman dilimlerini &quot;My Appointments&quot; sekmesinden gorebilmeli" />
-        <item itemvalue="JUnit.US003_Runner" />
-        <item itemvalue="Cucumber Java.Feature: US003" />
-        <item itemvalue="Cucumber Java.Scenario: Güçlü bir parola için şifre en az 7 karakterden oluşmalıdır." />
+        <item itemvalue="Cucumber Java.Scenario: Guclu bir parola icin sifre en az 7 karakterden olusmalidir." />
+        <item itemvalue="Cucumber Java.Scenario: Doktor Api ile randevu dogrulayabilmeli" />
+        <item itemvalue="Cucumber Java.Feature: US009Api" />
+        <item itemvalue="Cucumber Java.Scenario: TC03_Kullanici adi api kullanilarak dogrulanmalidir" />
+        <item itemvalue="Cucumber Java.Scenario: TC_0012  API kullanarak kayitli kisiler olusturulup dogrulanmalidir" />
       </list>
     </recent_temporary>
   </component>

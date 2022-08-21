@@ -1,6 +1,6 @@
 Feature:US004.feature
 
-  Scenario:US004-TC01 Kullanıcının mevcut kimlik bilgilerini her zaman kullanabileceği bir beni hatırla seçeneği olmalıdır
+  Scenario:US004-TC01 Kullanicinin mevcut kimlik bilgilerini her zaman kullanabilecegi bir beni hatirla secenegi olmalidir
     Given Kullanici Url'e gider
     When Sag ust kosedeki ikonu tiklar
     And Sign in tusuna tiklar
@@ -9,7 +9,7 @@ Feature:US004.feature
     And Acilan pencerede"Remember me" checkbox'ini gorur
     And Browser close04
 
-  Scenario:US004-TC02  Eğer şifre unutulursa diye "Did you forget your password?" seçeneği olmalı
+  Scenario:US004-TC02  Eger sifre unutulursa diye "Did you forget your password?" secenegi olmali
 
 
     Given Kullanici Url'e gider
@@ -21,7 +21,7 @@ Feature:US004.feature
     And Browser close04
 
 
-  Scenario:US004-TC03 "You don't have an account yet? Register a new account" seçeneği olmalı
+  Scenario:US004-TC03 "You don't have an account yet? Register a new account" secenegi olmali
     Given Kullanici Url'e gider
     When Sag ust kosedeki ikonu tiklar
     And Sign in tusuna tiklar
@@ -30,7 +30,7 @@ Feature:US004.feature
     And Kullanici You don't have an account yet? Register a new account linkini tiklar
 
 
-  Scenario:US004-TC04 "Cancel" seçeneği olmalı
+  Scenario:US004-TC04 "Cancel" secenegi olmali
     Given Kullanici Url'e gider
     When Sag ust kosedeki ikonu tiklar
     And Sign in tusuna tiklar
@@ -38,7 +38,7 @@ Feature:US004.feature
     Then Cancel secenegini tiklar
 
 
-  Scenario:US004- TC05 Giriş yapinca  başarı mesajı olmali.
+  Scenario:US004- TC05 Giris yapinca  basari mesaji olmali.
     Given Kullanici Url'e gider
     When Sag ust kosedeki ikonu tiklar
     And Sign in tusuna tiklar
@@ -48,7 +48,7 @@ Feature:US004.feature
     And Giris yapinca basarili mesajini gorur
 
 
-  Scenario:US004-TC06 Geçerli bir kullanıcı adı ve gecerli şifre ile basarili giris yapmali .
+  Scenario:US004-TC06 Gecerli bir kullanici adi ve gecerli sifre ile basarili giris yapmali .
     Given Kullanici Url'e gider
     When Sag ust kosedeki ikonu tiklar
     And Sign in tusuna tiklar
