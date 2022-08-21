@@ -2,7 +2,6 @@ package stepDefinitions.Db;
 
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import utilities.DBUtils;
 import utilities.DatabaseUtility;
 import utilities.ReadTxt;
 import utilities.WriteToTxt;
@@ -12,7 +11,7 @@ import java.util.List;
 
 import static utilities.DatabaseUtility.getColumnData;
 
-public class US10_DBStepDefinitions {
+public class US010Db {
 
 
 

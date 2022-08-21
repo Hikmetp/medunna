@@ -1,6 +1,6 @@
 
 @US013
-Feature:US013_Doktor "Test Results" işlemleri yapabilmeli
+Feature:US013_Doktor "Test Results" islemleri yapabilmeli
 
   Background:US013 Ortak adimlar
     Given Kullanici "medunna_url" sayfasina gider
@@ -14,7 +14,7 @@ Feature:US013_Doktor "Test Results" işlemleri yapabilmeli
     And Sonraki sayfada randevusu olan hastasinin satirindaki Edit secenegini tiklar
 
   @US013_TC01
-  Scenario:US013_TC01 Doktor "Test Results" işlemleri yapabilmeli
+  Scenario:US013_TC01 Doktor "Test Results" islemleri yapabilmeli
     Given Doktor Request A butonuna tiklar
     And Doktor Glucose, urea, creatinine, Sodium, Potassium,Total protein, Albumin, Hemoglobin testlerini secer
     And Doktor Save butonuna tiklar

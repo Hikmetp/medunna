@@ -1,4 +1,4 @@
-Feature:US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
+Feature:US002_Kayit olmak icin email and username bilgileri girilebilmelidir.
 
   @US02 @TC208
   Scenario:TC08_DB ile dogrulanmalidir

@@ -1,4 +1,4 @@
-Feature: US_014 Physician (Doctor) "Edit Inpatient" (Yatılı Tedavi) işlemleri yapabilmeli
+Feature: US_014 Physician (Doctor) "Edit Inpatient" (Yatili Tedavi) islemleri yapabilmeli
   (My Appointments / View / Edit Impatients)
 @tcbir
 Scenario: TC001 Doktor"ID, start and end dates, description, created date
@@ -13,7 +13,7 @@ Then Doktor yatan hastanin ID, start and end dates, description, created date, a
 And Doktor sayfayi kapatir
 
 @tciki
-Scenario: TC002 "Status" doktor tarafından "UNAPPROVED, DISCHARGED, STAYING veya CANCELLED" olarak güncellenebilmeli
+Scenario: TC002 "Status" doktor tarafindan "UNAPPROVED, DISCHARGED, STAYING veya CANCELLED" olarak güncellenebilmeli
 Given Doktor  Medunna internet sitesine gider
 When Doktor anasayfa sag ust kosede bulunan kullanici ikonunu tiklar
 And Doktor acilan dropdown menuden  Sign in sekmesini secer
@@ -38,7 +38,7 @@ And Doktor sayfayi kapatir
 
 
 
-Scenario: TC003 Doktor rezerve edilmiş odayı güncelleyebilmeli
+Scenario: TC003 Doktor rezerve edilmis odayi güncelleyebilmeli
   Given Doktor  Medunna internet sitesine gider
   When Doktor anasayfa sag ust kosede bulunan kullanici ikonunu tiklar
   And Doktor acilan dropdown menuden  Sign in sekmesini secer

@@ -69,11 +69,15 @@ public class US014StepD {
         Assert.assertTrue(medunnaPage.appointmentBaslikElementi.isDisplayed());
         Assert.assertTrue(medunnaPage.patientBaslikElementi.isDisplayed());
     }
-
+    /*
     @And("Doktor sayfayi kapatir")
     public void doktorSayfayiKapatir() {
         Driver.closeDriver();
+
+
     }
+
+     */
 
     @And("Doktor {string} ekraninda hasta bilgilerinin son kisminda bulunan {string} butonuna listedeki hastalardan {string} u  {string} olan ilk hasta icin tiklar")
     public void doktorEkranindaHastaBilgilerininSonKismindaBulunanButonunaListedekiHastalardanUOlanIlkHastaIcinTiklar(String arg0, String arg1, String arg2, String arg3) {

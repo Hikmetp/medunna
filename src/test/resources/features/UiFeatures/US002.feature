@@ -1,7 +1,7 @@
-Feature: US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
+Feature: US002_Kayit olmak icin email and username bilgileri girilebilmelidir.
 
   @US02 @TC201
-  Scenario:TC01_UserName boş bırakılamaz
+  Scenario:TC01_UserName bos birakilamaz
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -14,7 +14,7 @@ Feature: US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
 
 
   @US02 @TC2028 @Negative
-  Scenario:TC02_Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "Username" olmalıdır
+  Scenario:TC02_Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Username" olmalidir
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -27,7 +27,7 @@ Feature: US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
 
 
   @US02 @TC202 @Negative
-  Scenario:TC02_Kullanici Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "Username" olmalıdır
+  Scenario:TC02_Kullanici Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Username" olmalidir
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -41,7 +41,7 @@ Feature: US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
 
 
   @US02 @TC202 @Pozitive
-  Scenario:TC02_Kullanici Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "Username" olmalıdır
+  Scenario:TC02_Kullanici Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Username" olmalidir
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -67,7 +67,7 @@ Feature: US002_Kayıt olmak için email and username bilgileri girilebilmelidir.
       And Kullanici Email kutusunu bos birakinca Your email is required. uyarı mesajını görüntüler
 
   @US02 @TC205 @Negative
-      Scenario:TC_05_Kullanici Email adresi 5 karekterden az ve  "@" ve "." karakterleri olmadan doldurulamamalıdır.
+      Scenario:TC_05_Kullanici Email adresi 5 karekterden az ve  "@" ve "." karakterleri olmadan doldurulamamalidir.
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar

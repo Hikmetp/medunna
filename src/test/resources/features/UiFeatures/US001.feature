@@ -1,7 +1,7 @@
-Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebilmelidir.
+Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilmelidir.
 
   @TC01 @US01 @E2E
-  Scenario:US001_TC01 Kullanici SSN boş bırakılamaz
+  Scenario:US001_TC01 Kullanici SSN bos birakilamaz
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -14,7 +14,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
 
 
   @TC02 @TC03 @Negative @US01 @E2E
-  Scenario Outline:US001_TC02_TC03 Kullanici Geçerli bir SSN, 3. ve 5. rakamdan sonra "-" içermeli ve 9 rakamdan oluşmalıdır.
+  Scenario Outline:US001_TC02_TC03 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
@@ -32,7 +32,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
       | ass-**-dd1  | ccc-cc-ccc |
 
   @TC04 @Negative @US01 @E2E
-  Scenario Outline:US001_T04 Kullanici Geçerli bir SSN, 3. ve 5. rakamdan sonra "-" içermeli ve 9 rakamdan oluşmalıdır.
+  Scenario Outline:US001_T04 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
 
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -52,7 +52,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
       | 456-127-852  | 4565-22-5555            |
 
   @TC05 @Pozitive @US01 @E2E
-  Scenario:TC_005 Kullanici Geçerli bir SSN, 3. ve 5. rakamdan sonra "-" içermeli ve 9 rakamdan oluşmalıdır.
+  Scenario:TC_005 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
 
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -65,7 +65,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
     And    Kullanici browseri kapatir
 
   @TC06 @Pozitive @US01 @E2E
-  Scenario:TC_006 Kullanici First Name boş kutusunu bırakılamaz
+  Scenario:TC_006 Kullanici First Name bos kutusunu birakilamaz
 
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -78,7 +78,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
     And    KUllanici FirstName kutucugunu bos birakinca Your FirstName is required. uyarı mesajını görüntüler
 
   @TC07 @Negative @US01 @E2E
-  Scenario Outline:TC_07 Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "First Name" olmalıdır
+  Scenario Outline:TC_07 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "First Name" olmalidir
 
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -98,7 +98,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
 
 
   @TC08 @Pozitive @US01 @E2E
-  Scenario:TC_08 Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "First Name" olmalıdır
+  Scenario:TC_08 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "First Name" olmalidir
 
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -110,7 +110,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
     And Kullanici gecerli olan bir First Name girer ve kabul edildigini gorur
 
   @TC09 @Negative @US01 @E2E
-    Scenario:TC_09 Kullanici Last Name kutusunu boş bırakılamaz
+    Scenario:TC_09 Kullanici Last Name kutusunu bos birakilamaz
       Given  Kullanici "medunna_url" sayfasina gider
       And    Kullanici Anasayfada kullanici ikonuna tiklar
       And    Kullanici ikonu altindaki regester'i tiklar
@@ -123,7 +123,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
       And    KUllanici LastName kutucugunu bos birakinca Your LastName is required. uyarı mesajını görüntüler
 
   @TC10 @Negative @US01 @E2E
-    Scenario Outline:TC_10 Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "Last Name" olmalıdır
+    Scenario Outline:TC_10 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Last Name" olmalidir
 
       Given  Kullanici "medunna_url" sayfasina gider
       And    Kullanici Anasayfada kullanici ikonuna tiklar
@@ -143,7 +143,7 @@ Feature:US001_Kayıt olmak icin SSN, Firstname ve Lastname bilgileri girililebil
 
 
   @TC11 @Pozitive @US01 @E2E
-    Scenario:TC_11 Herhangi bir karakter içeren ve boş bırakılamayan geçerli bir "Last Name" olmalıdır
+    Scenario:TC_11 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Last Name" olmalidir
 
       Given  Kullanici "medunna_url" sayfasina gider
       And    Kullanici Anasayfada kullanici ikonuna tiklar

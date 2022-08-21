@@ -280,14 +280,6 @@ public abstract class ReusableMethods {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(format);
         date = date.plusYears(atMostYear).plusMonths(atMostMonth).plusDays(atMostDay);
         String dateF = formatter.format(date);
-
-    public static void hooverByJS(WebElement element) {
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-        jse.executeScript("arguments[0].scrollIntoView()", element);
-        jse.executeScript("arguments[0].click();", element);
-    }
-
-
         return dateF;
     }
 
@@ -372,7 +364,6 @@ public abstract class ReusableMethods {
         jse.executeScript("arguments[0].click();", element);
     }
 }
-
 
 
 
