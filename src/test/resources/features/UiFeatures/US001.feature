@@ -1,10 +1,14 @@
 Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilmelidir.
-
-  @TC01 @US01 @E2E
-  Scenario:US001_TC01 Kullanici SSN bos birakilamaz
+  Background:Kullanici medunna.com gider
     Given  Kullanici "medunna_url" sayfasina gider
     And    Kullanici Anasayfada kullanici ikonuna tiklar
     And    Kullanici ikonu altindaki regester'i tiklar
+
+  @TC01 @US0117 @E2E
+  Scenario:US001_TC01 Kullanici SSN bos birakilamaz
+   # Given  Kullanici "medunna_url" sayfasina gider
+   # And    Kullanici Anasayfada kullanici ikonuna tiklar
+   # And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     Then   Kullanici SSN kutucugunu bos birakir
     And    Kullanici FirstName kutusuna tiklar
@@ -15,9 +19,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
 
   @TC02 @TC03 @Negative @US01 @E2E
   Scenario Outline:US001_TC02_TC03 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+    #Given  Kullanici "medunna_url" sayfasina gider
+    #And    Kullanici Anasayfada kullanici ikonuna tiklar
+    #And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     Then   Kullanici SSN kutucugunu bos birakir
     And     Kullanici FirstName kutusuna tiklar
@@ -34,9 +38,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC04 @Negative @US01 @E2E
   Scenario Outline:US001_T04 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
 
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+  # Given  Kullanici "medunna_url" sayfasina gider
+  # And    Kullanici Anasayfada kullanici ikonuna tiklar
+  # And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     Then   Kullanici SSN kutucugunu bos birakir
     And     Kullanici FirstName kutusuna tiklar
@@ -54,9 +58,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC05 @Pozitive @US01 @E2E
   Scenario:TC_005 Kullanici Gecerli bir SSN, 3. ve 5. rakamdan sonra "-" icermeli ve 9 rakamdan olusmalidir.
 
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+   #Given  Kullanici "medunna_url" sayfasina gider
+   #And    Kullanici Anasayfada kullanici ikonuna tiklar
+   #And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     Then   Kullanici SSN kutucugunu bos birakir
     And   Kullanici SSN kutucuguna tiklar
@@ -67,9 +71,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC06 @Pozitive @US01 @E2E
   Scenario:TC_006 Kullanici First Name bos kutusunu birakilamaz
 
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+   # Given  Kullanici "medunna_url" sayfasina gider
+   # And    Kullanici Anasayfada kullanici ikonuna tiklar
+   # And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
     Then    Kullanici FirstName kutusuna tiklar
@@ -80,9 +84,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC07 @Negative @US01 @E2E
   Scenario Outline:TC_07 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "First Name" olmalidir
 
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+   #Given  Kullanici "medunna_url" sayfasina gider
+   #And    Kullanici Anasayfada kullanici ikonuna tiklar
+   #And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
     Then    Kullanici FirstName kutusuna tiklar
@@ -100,9 +104,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC08 @Pozitive @US01 @E2E
   Scenario:TC_08 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "First Name" olmalidir
 
-    Given  Kullanici "medunna_url" sayfasina gider
-    And    Kullanici Anasayfada kullanici ikonuna tiklar
-    And    Kullanici ikonu altindaki regester'i tiklar
+   #Given  Kullanici "medunna_url" sayfasina gider
+   #And    Kullanici Anasayfada kullanici ikonuna tiklar
+   #And    Kullanici ikonu altindaki regester'i tiklar
     When   Kullanici SSN kutucuguna tiklar
     And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
     Then    Kullanici FirstName kutusuna tiklar
@@ -111,9 +115,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
 
   @TC09 @Negative @US01 @E2E
     Scenario:TC_09 Kullanici Last Name kutusunu bos birakilamaz
-      Given  Kullanici "medunna_url" sayfasina gider
-      And    Kullanici Anasayfada kullanici ikonuna tiklar
-      And    Kullanici ikonu altindaki regester'i tiklar
+     #Given  Kullanici "medunna_url" sayfasina gider
+     #And    Kullanici Anasayfada kullanici ikonuna tiklar
+     #And    Kullanici ikonu altindaki regester'i tiklar
       When   Kullanici SSN kutucuguna tiklar
       And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
       And    Kullanici FirstName kutusuna tiklar
@@ -125,9 +129,9 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC10 @Negative @US01 @E2E
     Scenario Outline:TC_10 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Last Name" olmalidir
 
-      Given  Kullanici "medunna_url" sayfasina gider
-      And    Kullanici Anasayfada kullanici ikonuna tiklar
-      And    Kullanici ikonu altindaki regester'i tiklar
+     # Given  Kullanici "medunna_url" sayfasina gider
+     # And    Kullanici Anasayfada kullanici ikonuna tiklar
+     # And    Kullanici ikonu altindaki regester'i tiklar
       When   Kullanici SSN kutucuguna tiklar
       And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
       And    Kullanici FirstName kutusuna tiklar
@@ -145,14 +149,14 @@ Feature:US001_Kayit olmak icin SSN, Firstname ve Lastname bilgileri girililebilm
   @TC11 @Pozitive @US01 @E2E
     Scenario:TC_11 Herhangi bir karakter iceren ve bos birakilamayan gecerli bir "Last Name" olmalidir
 
-      Given  Kullanici "medunna_url" sayfasina gider
-      And    Kullanici Anasayfada kullanici ikonuna tiklar
-      And    Kullanici ikonu altindaki regester'i tiklar
+     #Given  Kullanici "medunna_url" sayfasina gider
+     #And    Kullanici Anasayfada kullanici ikonuna tiklar
+     #And    Kullanici ikonu altindaki regester'i tiklar
       When   Kullanici SSN kutucuguna tiklar
-      And Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
+      And    Kullanici SSN kutusuna dokuz rakamdan oluşan ve ucuncu ve besinci rakamdan sonra - içeren  bir ssn girer
       And    Kullanici FirstName kutusuna tiklar
-      And Kullanici First Name kutucuğuna karekterlerden ve rakamlardan olusan First Name girer
+      And    Kullanici First Name kutucuğuna karekterlerden ve rakamlardan olusan First Name girer
       Then   Kullanici LastName kutusuna tiklar
-      And Kullanici Last Name kutucuğuna karekterlerden ve rakamlardan olusan Last Name girer
+      And    Kullanici Last Name kutucuğuna karekterlerden ve rakamlardan olusan Last Name girer
 
 

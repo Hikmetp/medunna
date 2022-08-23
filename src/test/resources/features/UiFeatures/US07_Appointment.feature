@@ -1,6 +1,6 @@
 
 
-Feature: Login-Appointment form uzerinden hastalar randevu tarihi olusturabilmelidir
+Feature:Login-Appointment form uzerinden hastalar randevu tarihi olusturabilmelidir
 
   Scenario: TC01 Login-Appointment formda guncel tarih kabul edilmelidir.
     Given OS kullanici url'e gider
